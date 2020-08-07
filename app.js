@@ -1,5 +1,5 @@
 const marionette = require('backbone.marionette')
-const myDiv = require('./divs')
+const myDiv = require('./js/divs')
 const bootstraps = require('bootstrap')
 const $ = require('jquery')
 

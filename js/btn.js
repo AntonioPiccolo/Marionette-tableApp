@@ -1,6 +1,6 @@
 const Bb = require('backbone')
 const marionette = require('backbone.marionette')
-const btnTemplate = require('./Templates/btn.handlebars')
+const btnTemplate = require('../Templates/btn.handlebars')
 const tableView = require('./table')
 const divs = require('./divs')
 const btnCollection = require('./btnCollection')

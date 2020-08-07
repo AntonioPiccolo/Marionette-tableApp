@@ -40,23 +40,23 @@ var templater = require("handlebars/runtime")["default"].template;module.exports
     + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"bold") : depth0),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.program(5, data, 0),"data":data,"loc":{"start":{"line":3,"column":4},"end":{"line":6,"column":11}}})) != null ? stack1 : "")
     + "</a>\n</li>";
 },"useData":true});
-},{"handlebars/runtime":21}],2:[function(require,module,exports){
+},{"handlebars/runtime":25}],2:[function(require,module,exports){
 var templater = require("handlebars/runtime")["default"].template;module.exports = templater({"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
     return "<nav aria-label=\"Page navigation example\"></nav>\n  <ul class=\"pagination\"></ul>\n</nav>";
 },"useData":true});
-},{"handlebars/runtime":21}],3:[function(require,module,exports){
+},{"handlebars/runtime":25}],3:[function(require,module,exports){
 var templater = require("handlebars/runtime")["default"].template;module.exports = templater({"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
     return "<div id=\"input-region\" style=\"margin: 20px; text-align:center; margin-bottom:40px\"></div>\n<div id=\"table-region\" style=\"margin: 20px; margin-left: 44%\"></div>\n<div id=\"btn-region\" style=\"margin: 20px; margin-left: 43%\"></div>";
 },"useData":true});
-},{"handlebars/runtime":21}],4:[function(require,module,exports){
+},{"handlebars/runtime":25}],4:[function(require,module,exports){
 var templater = require("handlebars/runtime")["default"].template;module.exports = templater({"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
     return "<h4 style=\"margin-bottom: 15px;\">Filtra il Database</h4>\n<label>First name:</label><br>\n<input id=\"name\" type=\"text\" value=\"\"><br>\n<label>Last name:</label><br>\n<input id=\"surname\" type=\"text\" value=\"\"><br>\n<label>Age:</label><br>\n<input id=\"age\" type=\"text\" value=\"\"><br><br>\n<button id=\"btn-find\" type=\"button\" class=\"btn btn-primary\">Filter</button>\n<p id=\"add\" style=\"display: none;\">Ci sono <span id=\"fe\"></span> elementi nel Database</p>\n";
 },"useData":true});
-},{"handlebars/runtime":21}],5:[function(require,module,exports){
+},{"handlebars/runtime":25}],5:[function(require,module,exports){
 var templater = require("handlebars/runtime")["default"].template;module.exports = templater({"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
     return "<div id=\"nav-bar\" style=\"margin-bottom: 20px;\">\n<ul class=\"nav nav-tabs\" style=\"width:300px; margin-left:42%\">\n  <li id=\"submit\" class=\"nav-item\">\n    <a id=\"submit_a\" class=\"nav-link\" href=\"#\"><b>Submit</b></a>\n  </li>\n  <li id=\"find\" class=\"nav-item\">\n    <a id=\"find_a\" class=\"nav-link\" href=\"#\"><b>Find</b></a>\n  </li>\n\n</ul>\n</div>\n\n<div id=\"box\"></div>";
 },"useData":true});
-},{"handlebars/runtime":21}],6:[function(require,module,exports){
+},{"handlebars/runtime":25}],6:[function(require,module,exports){
 var templater = require("handlebars/runtime")["default"].template;module.exports = templater({"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
     var helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.hooks.helperMissing, alias3="function", alias4=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
         if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
@@ -73,21 +73,21 @@ var templater = require("handlebars/runtime")["default"].template;module.exports
     + alias4(((helper = (helper = lookupProperty(helpers,"age") || (depth0 != null ? lookupProperty(depth0,"age") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"age","hash":{},"data":data,"loc":{"start":{"line":3,"column":8},"end":{"line":3,"column":15}}}) : helper)))
     + "</td>\n";
 },"useData":true});
-},{"handlebars/runtime":21}],7:[function(require,module,exports){
+},{"handlebars/runtime":25}],7:[function(require,module,exports){
 var templater = require("handlebars/runtime")["default"].template;module.exports = templater({"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
     return "<h4 style=\"margin-bottom: 15px;\">Aggiungi al Database una persona</h4>\n<label>First name:</label><br>\n<input id=\"name\" type=\"text\" value=\"\"><br>\n<label>Last name:</label><br>\n<input id=\"surname\" type=\"text\" value=\"\"><br>\n<label>Age:</label><br>\n<input id=\"age\" type=\"text\" value=\"\"><br><br>\n<button id=\"btn-submit\" type=\"button\" class=\"btn btn-primary\">Submit</button>\n<p id=\"add\" style=\"display: none;\">successfully added</p>\n";
 },"useData":true});
-},{"handlebars/runtime":21}],8:[function(require,module,exports){
+},{"handlebars/runtime":25}],8:[function(require,module,exports){
 var templater = require("handlebars/runtime")["default"].template;module.exports = templater({"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
     return "<thead>\n    <tr>\n      <th scope=\"col\">First</th>\n      <th scope=\"col\">Last</th>\n      <th scope=\"col\">Age</th>\n    </tr>\n  </thead>\n<tbody>\n\n</tbody>\n";
 },"useData":true});
-},{"handlebars/runtime":21}],9:[function(require,module,exports){
+},{"handlebars/runtime":25}],9:[function(require,module,exports){
 var templater = require("handlebars/runtime")["default"].template;module.exports = templater({"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
     return "<table id=\"box-view\"></table>\n\n\n\n";
 },"useData":true});
-},{"handlebars/runtime":21}],10:[function(require,module,exports){
+},{"handlebars/runtime":25}],10:[function(require,module,exports){
 const marionette = require('backbone.marionette')
-const myDiv = require('./divs')
+const myDiv = require('./js/divs')
 const bootstraps = require('bootstrap')
 const $ = require('jquery')
 
@@ -103,10 +103,10 @@ const MyApp = marionette.Application.extend({
 const myApp = new MyApp()
 
 myApp.start()
-},{"./divs":13,"backbone.marionette":17,"bootstrap":20,"jquery":42}],11:[function(require,module,exports){
+},{"./js/divs":13,"backbone.marionette":21,"bootstrap":24,"jquery":46}],11:[function(require,module,exports){
 const Bb = require('backbone')
 const marionette = require('backbone.marionette')
-const btnTemplate = require('./Templates/btn.handlebars')
+const btnTemplate = require('../Templates/btn.handlebars')
 const tableView = require('./table')
 const divs = require('./divs')
 const btnCollection = require('./btnCollection')
@@ -267,12 +267,12 @@ const myBtn = marionette.View.extend({
 })
 
 module.exports = myBtn
-},{"./Templates/btn.handlebars":1,"./btnCollection":12,"./divs":13,"./table":47,"backbone":19,"backbone.marionette":17,"backbone.radio":18,"bootstrap":20,"jquery":42}],12:[function(require,module,exports){
+},{"../Templates/btn.handlebars":1,"./btnCollection":12,"./divs":13,"./table":18,"backbone":23,"backbone.marionette":21,"backbone.radio":22,"bootstrap":24,"jquery":46}],12:[function(require,module,exports){
 const Bb = require('backbone')
 const marionette = require('backbone.marionette')
-const btnCollectionTemplate = require('./Templates/btnCollection.handlebars')
+const btnCollectionTemplate = require('../Templates/btnCollection.handlebars')
 const btnView = require('./btn')
-var data = require('./list.json')
+var data = require('../list.json')
 const bootstraps = require('bootstrap')
 const $ = require('jquery')
 
@@ -287,14 +287,14 @@ const btnCollection = marionette.CollectionView.extend({
 })
 
 module.exports = btnCollection
-},{"./Templates/btnCollection.handlebars":2,"./btn":11,"./list.json":15,"backbone":19,"backbone.marionette":17,"bootstrap":20,"jquery":42}],13:[function(require,module,exports){
+},{"../Templates/btnCollection.handlebars":2,"../list.json":20,"./btn":11,"backbone":23,"backbone.marionette":21,"bootstrap":24,"jquery":46}],13:[function(require,module,exports){
 const Bb = require('backbone')
 const marionette = require('backbone.marionette')
-const divsTemplate = require('./Templates/divs.handlebars')
+const divsTemplate = require('../Templates/divs.handlebars')
 const navBar = require('./navbar')
 const myView = require('./view')
 const btnCollection = require('./btnCollection')
-const data = require('./list.json')
+const data = require('../list.json')
 const bootstraps = require('bootstrap')
 const $ = require('jquery')
 
@@ -316,10 +316,10 @@ const myDiv = marionette.View.extend({
 })
 
 module.exports = myDiv
-},{"./Templates/divs.handlebars":3,"./btnCollection":12,"./list.json":15,"./navbar":16,"./view":48,"backbone":19,"backbone.marionette":17,"bootstrap":20,"jquery":42}],14:[function(require,module,exports){
+},{"../Templates/divs.handlebars":3,"../list.json":20,"./btnCollection":12,"./navbar":15,"./view":19,"backbone":23,"backbone.marionette":21,"bootstrap":24,"jquery":46}],14:[function(require,module,exports){
 const Bb = require('backbone')
 const marionette = require('backbone.marionette')
-const templateFind = require('./Templates/find.handlebars')
+const templateFind = require('../Templates/find.handlebars')
 const newTable = require('./table')
 const $ = require('jquery')
 const bootstraps = require('bootstrap')
@@ -340,7 +340,7 @@ const myFind = marionette.View.extend({
         let surname = $('#surname').val()
         let age = $('#age').val()
 
-        let array_data = Array.from(require('./list.json'))
+        let array_data = Array.from(require('../list.json'))
         let filtered_array = this.filter(array_data,name,surname,age)
 
         let table = new newTable
@@ -384,7 +384,197 @@ const myFind = marionette.View.extend({
 })
 
 module.exports = myFind
-},{"./Templates/find.handlebars":4,"./list.json":15,"./table":47,"backbone":19,"backbone.marionette":17,"bootstrap":20,"jquery":42}],15:[function(require,module,exports){
+},{"../Templates/find.handlebars":4,"../list.json":20,"./table":18,"backbone":23,"backbone.marionette":21,"bootstrap":24,"jquery":46}],15:[function(require,module,exports){
+const marionette = require('backbone.marionette')
+const templateNav = require('../Templates/navbar.handlebars')
+const newTable = require('./table')
+const $ = require('jquery')
+const bootstraps = require('bootstrap')
+const submit = require('./submit')
+const find = require('./find')
+//const  icons = require('bootstrap-icons')
+
+const myNav = marionette.View.extend({
+    template: templateNav,
+    regions: {
+        navRegion: '#nav-bar',
+        boxDiv: '#box'
+    },
+
+    events: {
+        'click #submit': 'submitClick',
+        'click #find': 'findClick'
+    },
+
+    initialize: function(){
+
+    },
+
+    submitClick: function(){
+        $('#submit_a').attr('class','nav-link active')
+        $('#find_a').attr('class','nav-link')
+        this.showChildView('boxDiv', new submit)
+    },
+
+    findClick: function(){
+        $('#find_a').attr('class','nav-link active')
+        $('#submit_a').attr('class','nav-link')
+        this.showChildView('boxDiv', new find)
+    }
+})
+
+module.exports = myNav
+
+
+},{"../Templates/navbar.handlebars":5,"./find":14,"./submit":17,"./table":18,"backbone.marionette":21,"bootstrap":24,"jquery":46}],16:[function(require,module,exports){
+const marionette = require('backbone.marionette')
+const rowTemplate = require('../Templates/row.handlebars')
+const bootstraps = require('bootstrap')
+const $ = require('jquery')
+
+
+const myView = marionette.View.extend({
+    tagName: 'tr',
+    template: rowTemplate
+})
+
+module.exports = myView
+},{"../Templates/row.handlebars":6,"backbone.marionette":21,"bootstrap":24,"jquery":46}],17:[function(require,module,exports){
+const marionette = require('backbone.marionette')
+const templateInput = require('../Templates/submit.handlebars')
+const newTable = require('./table')
+const $ = require('jquery')
+const bootstraps = require('bootstrap')
+
+const mySubmit = marionette.View.extend({
+    template: templateInput,
+    regions: {
+        inputRegion: 'div'
+    },
+    events: {
+        'click #btn-submit': 'clickBtn'
+    },
+
+    clickBtn: function(){
+        let name = $('#name').val()
+        let surname = $('#surname').val()
+        let age = $('#age').val()
+        
+        let obj = {
+            "name": name,
+            "surname": surname,
+            "age": age
+        }
+
+        let array_data = Array.from(require('../list.json'))
+        array_data.unshift(obj)
+
+        let table = new newTable
+        let sliceData = array_data.slice(0,5)
+        table.collection.set(sliceData)
+        $('#add').css('display', 'block')
+        table.render()
+    }
+})
+
+module.exports = mySubmit
+},{"../Templates/submit.handlebars":7,"../list.json":20,"./table":18,"backbone.marionette":21,"bootstrap":24,"jquery":46}],18:[function(require,module,exports){
+const Bb = require('backbone')
+const marionette = require('backbone.marionette')
+const tableTemplate = require('../Templates/table.handlebars')
+const rowView = require('./row')
+var data = require('../list.json')
+const bootstraps = require('bootstrap')
+const $ = require('jquery')
+
+
+const myCollection = marionette.CollectionView.extend({
+
+    collection: new Bb.Collection(),
+    childView: rowView,
+    childViewContainer: "tbody",
+    template: tableTemplate,
+
+    attributes: {
+        index: 0
+    },
+
+    initialize: function(){
+        var sliceData = data.slice(this.attributes.index,5)
+        this.collection.set(sliceData)
+    },
+
+    onPrevious: function(){
+        if(this.triggerMethod('previousCheck')){
+        var sliceData = data.slice(this.attributes.index-5,this.attributes.index)
+        this.attributes.index = this.attributes.index -5
+        this.collection.set(sliceData)
+        }
+    },
+    onPreviousCheck: function(){
+        if(this.attributes.index > 0)
+            return true
+        else
+            return false
+    },
+
+    onPage: function(n){
+        if(this.triggerMethod('pageCheck',n)){
+            var sliceData = data.slice((n-1)*5,n*5)
+            this.collection.set(sliceData)
+            this.attributes.index = (n-1)*5
+        }
+    },
+    onPageCheck: function(n){
+        if((parseInt(n-1)*5) < data.length)
+            return true
+        else
+            return false
+    },
+
+    onNext: function(){
+        if(this.triggerMethod('nextCheck')){
+            this.attributes.index = this.attributes.index +5
+            var sliceData = data.slice(this.attributes.index,this.attributes.index+5)
+            this.collection.set(sliceData)
+        }
+    },
+    onNextCheck: function(){
+        if((data.length - (this.attributes.index +5)) > 0)
+            return true
+        else
+            return false
+    },
+    
+})
+
+module.exports = myCollection
+},{"../Templates/table.handlebars":8,"../list.json":20,"./row":16,"backbone":23,"backbone.marionette":21,"bootstrap":24,"jquery":46}],19:[function(require,module,exports){
+const Bb = require('backbone')
+const marionette = require('backbone.marionette')
+const viewTemplate = require('../Templates/view.handlebars')
+const tableView = require('./table')
+const bootstraps = require('bootstrap')
+const $ = require('jquery')
+
+
+const myView = marionette.View.extend({
+    
+    template: viewTemplate,
+
+    regions: {
+        viewRegion: '#box-view'
+    },
+
+    className: 'table table-stripped',
+
+    onRender(){
+        this.showChildView('viewRegion', new tableView())
+    }
+})
+
+module.exports = myView
+},{"../Templates/view.handlebars":9,"./table":18,"backbone":23,"backbone.marionette":21,"bootstrap":24,"jquery":46}],20:[function(require,module,exports){
 module.exports=[
     {
         "name": "Carlo",
@@ -477,49 +667,7 @@ module.exports=[
         "age": "53"
     }
 ]
-},{}],16:[function(require,module,exports){
-const marionette = require('backbone.marionette')
-const templateNav = require('./Templates/navbar.handlebars')
-const newTable = require('./table')
-const $ = require('jquery')
-const bootstraps = require('bootstrap')
-const submit = require('./submit')
-const find = require('./find')
-//const  icons = require('bootstrap-icons')
-
-const myNav = marionette.View.extend({
-    template: templateNav,
-    regions: {
-        navRegion: '#nav-bar',
-        boxDiv: '#box'
-    },
-
-    events: {
-        'click #submit': 'submitClick',
-        'click #find': 'findClick'
-    },
-
-    initialize: function(){
-
-    },
-
-    submitClick: function(){
-        $('#submit_a').attr('class','nav-link active')
-        $('#find_a').attr('class','nav-link')
-        this.showChildView('boxDiv', new submit)
-    },
-
-    findClick: function(){
-        $('#find_a').attr('class','nav-link active')
-        $('#submit_a').attr('class','nav-link')
-        this.showChildView('boxDiv', new find)
-    }
-})
-
-module.exports = myNav
-
-
-},{"./Templates/navbar.handlebars":5,"./find":14,"./submit":46,"./table":47,"backbone.marionette":17,"bootstrap":20,"jquery":42}],17:[function(require,module,exports){
+},{}],21:[function(require,module,exports){
 /**
 * @license
 * MarionetteJS (Backbone.Marionette)
@@ -3572,7 +3720,7 @@ module.exports = myNav
 this && this.Marionette && (this.Mn = this.Marionette);
 
 
-},{"backbone":19,"backbone.radio":18,"underscore":44}],18:[function(require,module,exports){
+},{"backbone":23,"backbone.radio":22,"underscore":48}],22:[function(require,module,exports){
 // Backbone.Radio v2.0.0
 
 (function (global, factory) {
@@ -3923,7 +4071,7 @@ this && this.Marionette && (this.Mn = this.Marionette);
 
 }));
 
-},{"backbone":19,"underscore":44}],19:[function(require,module,exports){
+},{"backbone":23,"underscore":48}],23:[function(require,module,exports){
 (function (global){
 //     Backbone.js 1.4.0
 
@@ -6023,7 +6171,7 @@ this && this.Marionette && (this.Mn = this.Marionette);
 });
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"jquery":42,"underscore":44}],20:[function(require,module,exports){
+},{"jquery":46,"underscore":48}],24:[function(require,module,exports){
 /*!
   * Bootstrap v4.5.0 (https://getbootstrap.com/)
   * Copyright 2011-2020 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
@@ -10445,7 +10593,7 @@ this && this.Marionette && (this.Mn = this.Marionette);
 })));
 
 
-},{"jquery":42,"popper.js":43}],21:[function(require,module,exports){
+},{"jquery":46,"popper.js":47}],25:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -10513,7 +10661,7 @@ exports['default'] = inst;
 module.exports = exports['default'];
 
 
-},{"./handlebars/base":22,"./handlebars/exception":25,"./handlebars/no-conflict":38,"./handlebars/runtime":39,"./handlebars/safe-string":40,"./handlebars/utils":41}],22:[function(require,module,exports){
+},{"./handlebars/base":26,"./handlebars/exception":29,"./handlebars/no-conflict":42,"./handlebars/runtime":43,"./handlebars/safe-string":44,"./handlebars/utils":45}],26:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -10631,7 +10779,7 @@ exports.createFrame = _utils.createFrame;
 exports.logger = _logger2['default'];
 
 
-},{"./decorators":23,"./exception":25,"./helpers":26,"./internal/proto-access":35,"./logger":37,"./utils":41}],23:[function(require,module,exports){
+},{"./decorators":27,"./exception":29,"./helpers":30,"./internal/proto-access":39,"./logger":41,"./utils":45}],27:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -10649,7 +10797,7 @@ function registerDefaultDecorators(instance) {
 }
 
 
-},{"./decorators/inline":24}],24:[function(require,module,exports){
+},{"./decorators/inline":28}],28:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -10680,7 +10828,7 @@ exports['default'] = function (instance) {
 module.exports = exports['default'];
 
 
-},{"../utils":41}],25:[function(require,module,exports){
+},{"../utils":45}],29:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -10746,7 +10894,7 @@ exports['default'] = Exception;
 module.exports = exports['default'];
 
 
-},{}],26:[function(require,module,exports){
+},{}],30:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -10804,7 +10952,7 @@ function moveHelperToHooks(instance, helperName, keepHelper) {
 }
 
 
-},{"./helpers/block-helper-missing":27,"./helpers/each":28,"./helpers/helper-missing":29,"./helpers/if":30,"./helpers/log":31,"./helpers/lookup":32,"./helpers/with":33}],27:[function(require,module,exports){
+},{"./helpers/block-helper-missing":31,"./helpers/each":32,"./helpers/helper-missing":33,"./helpers/if":34,"./helpers/log":35,"./helpers/lookup":36,"./helpers/with":37}],31:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -10845,7 +10993,7 @@ exports['default'] = function (instance) {
 module.exports = exports['default'];
 
 
-},{"../utils":41}],28:[function(require,module,exports){
+},{"../utils":45}],32:[function(require,module,exports){
 (function (global){
 'use strict';
 
@@ -10953,7 +11101,7 @@ module.exports = exports['default'];
 
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"../exception":25,"../utils":41}],29:[function(require,module,exports){
+},{"../exception":29,"../utils":45}],33:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -10980,7 +11128,7 @@ exports['default'] = function (instance) {
 module.exports = exports['default'];
 
 
-},{"../exception":25}],30:[function(require,module,exports){
+},{"../exception":29}],34:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -11028,7 +11176,7 @@ exports['default'] = function (instance) {
 module.exports = exports['default'];
 
 
-},{"../exception":25,"../utils":41}],31:[function(require,module,exports){
+},{"../exception":29,"../utils":45}],35:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -11056,7 +11204,7 @@ exports['default'] = function (instance) {
 module.exports = exports['default'];
 
 
-},{}],32:[function(require,module,exports){
+},{}],36:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -11074,7 +11222,7 @@ exports['default'] = function (instance) {
 module.exports = exports['default'];
 
 
-},{}],33:[function(require,module,exports){
+},{}],37:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -11119,7 +11267,7 @@ exports['default'] = function (instance) {
 module.exports = exports['default'];
 
 
-},{"../exception":25,"../utils":41}],34:[function(require,module,exports){
+},{"../exception":29,"../utils":45}],38:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -11143,7 +11291,7 @@ function createNewLookupObject() {
 }
 
 
-},{"../utils":41}],35:[function(require,module,exports){
+},{"../utils":45}],39:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -11218,7 +11366,7 @@ function resetLoggedProperties() {
 }
 
 
-},{"../logger":37,"./create-new-lookup-object":34}],36:[function(require,module,exports){
+},{"../logger":41,"./create-new-lookup-object":38}],40:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -11239,7 +11387,7 @@ function wrapHelper(helper, transformOptionsFn) {
 }
 
 
-},{}],37:[function(require,module,exports){
+},{}],41:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -11288,7 +11436,7 @@ exports['default'] = logger;
 module.exports = exports['default'];
 
 
-},{"./utils":41}],38:[function(require,module,exports){
+},{"./utils":45}],42:[function(require,module,exports){
 (function (global){
 'use strict';
 
@@ -11311,7 +11459,7 @@ module.exports = exports['default'];
 
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],39:[function(require,module,exports){
+},{}],43:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -11685,7 +11833,7 @@ function passLookupPropertyOption(helper, container) {
 }
 
 
-},{"./base":22,"./exception":25,"./helpers":26,"./internal/proto-access":35,"./internal/wrapHelper":36,"./utils":41}],40:[function(require,module,exports){
+},{"./base":26,"./exception":29,"./helpers":30,"./internal/proto-access":39,"./internal/wrapHelper":40,"./utils":45}],44:[function(require,module,exports){
 // Build out our basic SafeString type
 'use strict';
 
@@ -11702,7 +11850,7 @@ exports['default'] = SafeString;
 module.exports = exports['default'];
 
 
-},{}],41:[function(require,module,exports){
+},{}],45:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -11828,7 +11976,7 @@ function appendContextPath(contextPath, id) {
 }
 
 
-},{}],42:[function(require,module,exports){
+},{}],46:[function(require,module,exports){
 /*!
  * jQuery JavaScript Library v3.5.1
  * https://jquery.com/
@@ -22702,7 +22850,7 @@ if ( typeof noGlobal === "undefined" ) {
 return jQuery;
 } );
 
-},{}],43:[function(require,module,exports){
+},{}],47:[function(require,module,exports){
 (function (global){
 /**!
  * @fileOverview Kickass library to create and place poppers near their reference elements.
@@ -25330,7 +25478,7 @@ return Popper;
 
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],44:[function(require,module,exports){
+},{}],48:[function(require,module,exports){
 (function (global){
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
@@ -27161,152 +27309,4 @@ return Popper;
 
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],45:[function(require,module,exports){
-const marionette = require('backbone.marionette')
-const rowTemplate = require('./Templates/row.handlebars')
-const bootstraps = require('bootstrap')
-const $ = require('jquery')
-
-
-const myView = marionette.View.extend({
-    tagName: 'tr',
-    template: rowTemplate
-})
-
-module.exports = myView
-},{"./Templates/row.handlebars":6,"backbone.marionette":17,"bootstrap":20,"jquery":42}],46:[function(require,module,exports){
-const marionette = require('backbone.marionette')
-const templateInput = require('./Templates/submit.handlebars')
-const newTable = require('./table')
-const $ = require('jquery')
-const bootstraps = require('bootstrap')
-
-const mySubmit = marionette.View.extend({
-    template: templateInput,
-    regions: {
-        inputRegion: 'div'
-    },
-    events: {
-        'click #btn-submit': 'clickBtn'
-    },
-
-    clickBtn: function(){
-        let name = $('#name').val()
-        let surname = $('#surname').val()
-        let age = $('#age').val()
-        
-        let obj = {
-            "name": name,
-            "surname": surname,
-            "age": age
-        }
-
-        let array_data = Array.from(require('./list.json'))
-        array_data.unshift(obj)
-
-        let table = new newTable
-        let sliceData = array_data.slice(0,5)
-        table.collection.set(sliceData)
-        $('#add').css('display', 'block')
-        table.render()
-    }
-})
-
-module.exports = mySubmit
-},{"./Templates/submit.handlebars":7,"./list.json":15,"./table":47,"backbone.marionette":17,"bootstrap":20,"jquery":42}],47:[function(require,module,exports){
-const Bb = require('backbone')
-const marionette = require('backbone.marionette')
-const tableTemplate = require('./Templates/table.handlebars')
-const rowView = require('./row')
-var data = require('./list.json')
-const bootstraps = require('bootstrap')
-const $ = require('jquery')
-
-
-const myCollection = marionette.CollectionView.extend({
-
-    collection: new Bb.Collection(),
-    childView: rowView,
-    childViewContainer: "tbody",
-    template: tableTemplate,
-
-    attributes: {
-        index: 0
-    },
-
-    initialize: function(){
-        var sliceData = data.slice(this.attributes.index,5)
-        this.collection.set(sliceData)
-    },
-
-    onPrevious: function(){
-        if(this.triggerMethod('previousCheck')){
-        var sliceData = data.slice(this.attributes.index-5,this.attributes.index)
-        this.attributes.index = this.attributes.index -5
-        this.collection.set(sliceData)
-        }
-    },
-    onPreviousCheck: function(){
-        if(this.attributes.index > 0)
-            return true
-        else
-            return false
-    },
-
-    onPage: function(n){
-        if(this.triggerMethod('pageCheck',n)){
-            var sliceData = data.slice((n-1)*5,n*5)
-            this.collection.set(sliceData)
-            this.attributes.index = (n-1)*5
-        }
-    },
-    onPageCheck: function(n){
-        if((parseInt(n-1)*5) < data.length)
-            return true
-        else
-            return false
-    },
-
-    onNext: function(){
-        if(this.triggerMethod('nextCheck')){
-            this.attributes.index = this.attributes.index +5
-            var sliceData = data.slice(this.attributes.index,this.attributes.index+5)
-            this.collection.set(sliceData)
-        }
-    },
-    onNextCheck: function(){
-        if((data.length - (this.attributes.index +5)) > 0)
-            return true
-        else
-            return false
-    },
-    
-})
-
-module.exports = myCollection
-},{"./Templates/table.handlebars":8,"./list.json":15,"./row":45,"backbone":19,"backbone.marionette":17,"bootstrap":20,"jquery":42}],48:[function(require,module,exports){
-const Bb = require('backbone')
-const marionette = require('backbone.marionette')
-const viewTemplate = require('./Templates/view.handlebars')
-const tableView = require('./table')
-const bootstraps = require('bootstrap')
-const $ = require('jquery')
-
-
-const myView = marionette.View.extend({
-    
-    template: viewTemplate,
-
-    regions: {
-        viewRegion: '#box-view'
-    },
-
-    className: 'table table-stripped',
-
-    onRender(){
-        this.showChildView('viewRegion', new tableView())
-    }
-})
-
-module.exports = myView
-},{"./Templates/view.handlebars":9,"./table":47,"backbone":19,"backbone.marionette":17,"bootstrap":20,"jquery":42}]},{},[10]);
+},{}]},{},[10]);

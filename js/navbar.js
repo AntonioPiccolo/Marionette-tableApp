@@ -1,5 +1,5 @@
 const marionette = require('backbone.marionette')
-const templateNav = require('./Templates/navbar.handlebars')
+const templateNav = require('../Templates/navbar.handlebars')
 const newTable = require('./table')
 const $ = require('jquery')
 const bootstraps = require('bootstrap')

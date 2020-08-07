@@ -1,6 +1,6 @@
 const Bb = require('backbone')
 const marionette = require('backbone.marionette')
-const templateFind = require('./Templates/find.handlebars')
+const templateFind = require('../Templates/find.handlebars')
 const newTable = require('./table')
 const $ = require('jquery')
 const bootstraps = require('bootstrap')
@@ -21,7 +21,7 @@ const myFind = marionette.View.extend({
         let surname = $('#surname').val()
         let age = $('#age').val()
 
-        let array_data = Array.from(require('./list.json'))
+        let array_data = Array.from(require('../list.json'))
         let filtered_array = this.filter(array_data,name,surname,age)
 
         let table = new newTable

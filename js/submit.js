@@ -1,5 +1,5 @@
 const marionette = require('backbone.marionette')
-const templateInput = require('./Templates/submit.handlebars')
+const templateInput = require('../Templates/submit.handlebars')
 const newTable = require('./table')
 const $ = require('jquery')
 const bootstraps = require('bootstrap')
@@ -24,7 +24,7 @@ const mySubmit = marionette.View.extend({
             "age": age
         }
 
-        let array_data = Array.from(require('./list.json'))
+        let array_data = Array.from(require('../list.json'))
         array_data.unshift(obj)
 
         let table = new newTable

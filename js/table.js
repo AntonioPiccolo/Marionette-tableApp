@@ -1,8 +1,8 @@
 const Bb = require('backbone')
 const marionette = require('backbone.marionette')
-const tableTemplate = require('./Templates/table.handlebars')
+const tableTemplate = require('../Templates/table.handlebars')
 const rowView = require('./row')
-var data = require('./list.json')
+var data = require('../list.json')
 const bootstraps = require('bootstrap')
 const $ = require('jquery')
 

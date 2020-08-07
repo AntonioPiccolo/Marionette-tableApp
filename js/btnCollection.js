@@ -1,8 +1,8 @@
 const Bb = require('backbone')
 const marionette = require('backbone.marionette')
-const btnCollectionTemplate = require('./Templates/btnCollection.handlebars')
+const btnCollectionTemplate = require('../Templates/btnCollection.handlebars')
 const btnView = require('./btn')
-var data = require('./list.json')
+var data = require('../list.json')
 const bootstraps = require('bootstrap')
 const $ = require('jquery')
 
